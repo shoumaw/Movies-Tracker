@@ -3,7 +3,7 @@ import {getMoviesList} from '../actions/moviesListingAction'
 import {Movie} from '../components/Movie'
 import {connect} from 'react-redux';
 import {data} from '../constants/dummyData'
-import { Text, View, SafeAreaView, StyleSheet,FlatList } from 'react-native';
+import { Text, View, StyleSheet,FlatList } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
